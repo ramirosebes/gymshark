@@ -1,25 +1,55 @@
+/*-----Body-----*/
+body{
+        margin-left: 300px;
+        margin-top: 0;
+}
+
+/*-----Header-----*/
+#header{
+        margin-top: 0;
+        margin-left: -23px;
+        background-color: #1FA6FF;
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        top: 0;
+}
+
+#header h1{
+        display: inline;
+        line-height: 80px;
+        padding-left: 10px;
+        color: #FFF;
+}
+
+#header img{
+        width: 100px;
+        height: 100px;
+}
+
 /*-----Sidebar----- */
 #sidebar{
-       background-color: #232F3E;
-       width: 300px;
+        background-color: #232F3E;
+        max-width: 300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
 }
 
 .ul-sidebar{
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding: 10px;
 }
 
-#sidebar ul a{
-        text-decoration: none;
-        color: #FFFFFF;
-        display: block;
-        padding: 8px 16px;
+.ul-sidebar a{
+       text-decoration: none;
+       color: #FFF;
+       display: block;
+       padding: 0;
 }
 
-#sidebar ol a{
-        text-decoration: none;
-        color: #FFFFFF;
-        display: block;
-        padding: 8px 16px;
+.ul-sidebar a:hover{
+        background-color: #333;
 }
