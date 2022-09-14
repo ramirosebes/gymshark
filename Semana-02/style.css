@@ -1,10 +1,11 @@
-/*-----Body-----*/
+/*----------------------------------------Body----------------------------------------*/
 body{
         margin-left: 300px;
         margin-right: 0px;
+        overflow-x: hidden;
 }
 
-/*-----Sidebar----- */
+/*----------------------------------------Sidebar----------------------------------------*/
 .sidebar{
         background-color: #232F3E;
         width: 300px;
@@ -12,7 +13,6 @@ body{
         top: 0;
         left: 0;
         height: 100%;
-        overflow: auto;
         float: left;
 }
 
@@ -22,6 +22,8 @@ body{
         font-size: 20px;
         margin-bottom: 10px;
         text-align: center;
+        border-bottom: 2px solid black;
+        padding-bottom: 3px;
 }
 
 .ul{
@@ -49,6 +51,7 @@ body{
 
 /*-----Inputs-----*/
 
+/*Agregar icono de lupa, https://www.w3schools.com/css/css_form.asp*/
 .sidebar-top input[type=search]{
         width: 80%;
         margin: 30px 0 15px 0px;
@@ -81,9 +84,9 @@ body{
         margin-bottom: 30px;
 }
 
-/*-----Header-----*/
+/*----------------------------------------Header ----------------------------------------*/
 #header{
-        background-color: #1FA6FF;
+        background-color: #1FA5FF;
         margin-top: -21px;
         height: 100px;
         width: 100%;
@@ -94,19 +97,19 @@ body{
         color: #FFF;
 }
 
-/*-----Page 1-----*/
-/*--Titulo--*/
+/*----------------------------------------Page 1----------------------------------------*/
+/*--------------------Titulo--------------------*/
 .page-1{
         margin-left: 30px;
 }
 
 .page-1 h2{
         text-align: center;
-        color: #1FA6FF;
+        color: #1FA5FF;
         font-size: 40px;
 }
 
-/*--Primer parrafo--*/
+/*---------------------Primer parrafo--------------------*/
 .page-1-parrafo-1{
         float: left;
         width: 1060px;
@@ -126,21 +129,21 @@ body{
 
 .page-1-right h3{
         font-size: 25px;
-        color: #1FA6FF;
+        color: #1FA5FF;
         display: block;
 }
 
 .page-1-right{
         margin-bottom: 112px;
 }
-/*--Segundo parrafo--*/
+/*--------------------Segundo parrafo--------------------*/
 .page-1-left{
         margin-top: 112px;
 }
 
 .page-1-left h3{
         font-size: 25px;
-        color: #1FA6FF;
+        color: #1FA5FF;
         display: block;
         position: relative;
         left: 480px;
@@ -163,3 +166,492 @@ body{
         height: 228px;
 }
 
+/*----------------------------------------Page 2----------------------------------------*/
+.page-2{
+        margin-top: 150px;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 55em;
+}
+
+.page-2 h2{
+        text-align: center;
+        color: #1FA5FF;
+        font-size: 40px;
+}
+
+/*--------------------Primer Parrafo--------------------*/
+.page-2-parrafo-1{
+        display: inline;
+        font-size: 20px;
+        width: 60%;
+        float: left;
+
+        margin-bottom: 115PX;
+}
+
+.page-2-img-1{
+        
+        display: inline;
+        float: right;
+        position: relative;
+        top: 20px;
+}
+
+.page-2-img-1 img{
+        width: 400px;
+        height: 250px;
+}
+
+/*--------------------Segundo Parrafo---------------------*/
+.page-2-parrafo-2{
+        display: inline;
+        font-size: 20px;
+        width: 60%;
+        float: right;
+}
+
+.page-2-img-2{
+        display: inline;
+        float: left;
+        position: relative;
+        top: 20px;
+}
+
+.page-2-img-2 img{
+        width: 400px;
+        height: 250px;
+}
+
+/*----------------------------------------Pagina 3 ----------------------------------------*/
+#page-3{
+        margin-top: 150px;
+        margin-left: 200px;
+        margin-right: 200px;
+}
+
+#page-3 h3{
+        text-align: center;
+        color: #1FA5FF;
+        font-size: 40px;
+}
+
+#group-master{
+       display: flex; 
+}
+
+/*--------------------Primer Grupo---------------------*/
+.group01 {
+        width: 100%;
+}
+
+.group01 img{
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        padding: 80px 0;
+}
+
+.group01 p {
+        float: left;
+        width: 430px;
+        position: relative;
+        bottom: 5px;
+}
+
+.group01 h4{
+        float: left;
+        font-size: 25px;
+        position: relative;
+        top: 35px;
+        color: #1FA5FF;
+        font-weight: bold;
+}
+
+/*--------------------Segundo Grupo---------------------*/
+.group02 {
+        width: 100%;
+}
+
+.group02 img{
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        padding: 80px 0;
+}
+
+.group02 p {
+        float: left;
+        width: 430px;
+        position: relative;
+        bottom: 5px;
+}
+
+.group02 h4{
+        float: left;
+        font-size: 25px;
+        position: relative;
+        top: 35px;
+        color: #1FA5FF;
+        font-weight: bold;
+}
+
+/*--------------------Tercer Grupo---------------------*/
+.group03 {
+        width: 100%;
+}
+
+.group03 img{
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        padding: 80px 0;
+}
+
+.group03 p {
+        float: left;
+        width: 430px;
+        position: relative;
+        bottom: 5px;
+}
+
+.group03 h4{
+        float: left;
+        font-size: 25px;
+        position: relative;
+        top: 35px;
+        color: #1FA5FF;
+        font-weight: bold;
+}
+
+/*--------------------Cuarto Grupo---------------------*/
+.group04 {
+        width: 100%;
+}
+
+.group04 img{
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        padding: 80px 0;
+}
+
+.group04 p {
+        float: left;
+        width: 430px;
+        position: relative;
+        bottom: 5px;
+}
+
+.group04 h4{
+        float: left;
+        font-size: 25px;
+        position: relative;
+        top: 35px;
+        color: #1FA5FF;
+        font-weight: bold;
+}
+
+/*--------------------Quinto Grupo---------------------*/
+.group05 {
+        width: 100%;
+}
+
+.group05 img{
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        padding: 80px 0;
+}
+
+.group05 p {
+        float: left;
+        width: 430px;
+        position: relative;
+        bottom: 5px;
+}
+
+.group05 h4{
+        float: left;
+        font-size: 25px;
+        position: relative;
+        top: 35px;
+        color: #1FA5FF;
+        font-weight: bold;
+}
+
+/*--------------------Sexto Grupo---------------------*/
+.group06 {
+        width: 100%;
+}
+
+.group06 img{
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        padding: 80px 0;
+}
+
+.group06 p {
+        float: left;
+        width: 430px;
+        position: relative;
+        bottom: 5px;
+}
+
+.group06 h4{
+        float: left;
+        font-size: 25px;
+        position: relative;
+        top: 35px;
+        color: #1FA5FF;
+        font-weight: bold;
+}
+
+/*----------------------------------------Pagina 4 ----------------------------------------*/
+#page-4{
+        margin-top: 150px;
+        margin-left: 200px;
+        margin-right: 200px;
+}
+
+#page-4 h3{
+        text-align: center;
+        color: #1FA5FF;
+        font-size: 40px;
+}
+
+.containers{
+        display: flex;
+}
+
+/*--------------------Container Top Left--------------------*/
+.container-top-left{
+        width: 50%;
+        /*border: 2px solid red;*/
+        text-align: center;
+}
+
+.container-top-left label{
+        color: #1FA5FF;
+        display: block;
+        font-weight: bold;
+        font-size: 16px;
+}
+
+.container-top-left input:focus{
+        /*idea*/
+}
+
+.container-top-left input[type=text]{
+        border: 2px solid gray;
+        border-radius: 3px;
+        width: 45%;
+        padding: 7px 0;
+        margin-bottom: 20px;
+}
+
+.container-top-left input[type=email]{
+        border: 2px solid gray;
+        border-radius: 3px;
+        width: 45%;
+        padding: 7px 0;
+        margin-bottom: 20px;
+}
+
+.container-top-left select{
+        border: 2px solid gray;
+        border-radius: 3px;
+        width: 45%;
+        padding: 7px 0;
+        margin-bottom: 20px;
+}
+
+.container-top-left input[type=tel]{
+        border: 2px solid gray;
+        border-radius: 3px;
+        width: 45%;
+        padding: 7px 0;
+        margin-bottom: 20px;
+}
+
+.container-top-left textarea{
+        border: 2px solid gray;
+        border-radius: 3px;
+        width: 45%;
+        margin-bottom: 20px;
+}
+
+.container-top-left button{
+        width: 40%;
+        border-radius: 5px;
+        border: 2px solid #1FA6FF;
+        background-color: #1FA6FF;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 7px 0;
+}
+
+.label1{
+        position: relative;
+        right: 103px;
+}
+
+.label2{
+        position: relative;
+        right: 116px;
+}
+
+.label3{
+        position: relative;
+        right: 113px;
+}
+
+.label4{
+        position: relative;
+        right: 49px;
+}
+
+.label5{
+        position: relative;
+        right: 86px;
+}
+
+/*--------------------Container Top Right--------------------*/
+.container-top-right{
+        width: 50%;
+        /*border: 2px solid blue;*/
+        text-align: center;
+}
+
+/*----------Box 1----------*/
+.box1{
+        width: 100%;
+        height: 30%;
+        padding-left: 85px;
+}
+
+.box1 img{
+        float: left;
+        margin-right: 15px;
+}
+
+.box1 p {
+        float: left;
+        width: 300px;
+        position: relative;
+        bottom: 12px;
+}
+/*----------Box 2----------*/
+.box2{
+        width: 100%;
+        height: 30%;
+        padding-left: 85px;
+}
+
+.box2 img{
+        float: left;
+        margin-right: 15px;
+}
+
+.box2 p {
+        float: left;
+        width: 200px;
+        position: relative;
+        bottom: 5px;
+        left: 40px;
+        display: block;
+}
+
+/*----------Box 3----------*/
+.box3{
+        width: 100%;
+        height: 30%;
+        padding-left: 85px;
+}
+
+.box3 img{
+        float: left;
+        margin-right: 15px;
+}
+
+.box3 p {
+        float: left;
+        width: 300px;
+        position: relative;
+        bottom: 15px;
+}
+
+/*--------------------Container Bot--------------------*/
+.containers-bot{
+        /*border: 2px solid green;*/
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        border-top: 2px solid gray;
+        padding-top: 20px;
+}
+
+/*-----------Container Bot Left-----------*/
+.container-bot-left{
+        /*border: 2px solid orangered;*/
+        width: 50%;
+}
+
+.container-bot-left h4{
+        padding: 0 240px;
+        margin: 0px 0 10px 0;
+        color: #1FA5FF;
+        font-size: 25px;
+}
+
+.container-bot-left ol{
+        margin: 0;
+        padding: 0 260px;
+}
+
+/*-----------Container Bot Right-----------*/
+.container-bot-right{
+        /*border: 2px solid violet;*/
+        width: 50%;
+}
+
+.container-bot-right h4{
+        padding: 0 240px;
+        margin: 0px 0 10px 0;
+        color: #1FA5FF;
+        font-size: 25px;
+}
+
+.container-bot-right ol{
+        margin: 0;
+        padding: 0 260px;
+}
+
+/*----------------------------------------Footer ----------------------------------------*/
+#footer{
+        background-color: #1FA6FF;
+        display: flex;
+        height: 180px;
+}
+
+.footer-left{
+        float: left;
+}
+
+.footer-left h2{
+        margin-left: 20px;
+        color: #FFF;
+        font-size: 55px;
+        position: relative;
+        top: 20px;
+}
+
+.footer-left h3{
+        margin-left: 20px;
+        color: #FFF;
+        font-size: 30px;
+        position: relative;
+        top: 20px;
+}
