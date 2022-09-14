@@ -87,14 +87,24 @@ body{
 /*----------------------------------------Header ----------------------------------------*/
 #header{
         background-color: #1FA5FF;
-        margin-top: -21px;
-        height: 100px;
+        margin-top: 0;
+        height: 150px;
         width: 100%;
+        position: relative;
+        bottom: 34px;
+        display: flex;
 }
 
 #header h1{
-        padding: 27px 15px;
+        padding: 20px 15px;
         color: #FFF;
+        font-size: 50px;
+}
+
+#header img{
+        padding-left: 1170px;
+        position: relative;
+        top: 20px;
 }
 
 /*----------------------------------------Page 1----------------------------------------*/
@@ -631,27 +641,55 @@ body{
 
 /*----------------------------------------Footer ----------------------------------------*/
 #footer{
-        background-color: #1FA6FF;
+        background-color: #1FA5FF;
         display: flex;
-        height: 180px;
+        height: 150px;
+        position: relative;
 }
 
+/*-----------Footer Right-----------*/
+
 .footer-left{
-        float: left;
+        width: 33.3%;
+        /*border: 2px solid red;*/
 }
 
 .footer-left h2{
-        margin-left: 20px;
         color: #FFF;
-        font-size: 55px;
-        position: relative;
-        top: 20px;
+        font-size: 50px;
+        position: absolute;
+        left: 15px;
 }
 
 .footer-left h3{
-        margin-left: 20px;
         color: #FFF;
-        font-size: 30px;
+        font-size: 18px;
+        position: absolute;
+        bottom: 0px;
+        left: 15px;
+}
+
+/*-----------Footer Mid-----------*/
+
+.footer-mid{
+        width: 33.33%;
+        /*border: 2px solid violet;*/
+}
+
+.footer-mid{
+        text-align: center;
+        padding-top: 95px;
+}
+
+/*-----------Footer Left-----------*/
+
+.footer-right{
+        width: 33.33%;
+        /*border: 2px solid orange;*/
+}
+
+.footer-right img{
+        padding-left: 320px;
         position: relative;
-        top: 20px;
+        bottom: 10px;
 }
