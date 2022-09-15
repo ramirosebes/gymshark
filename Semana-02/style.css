@@ -3,6 +3,7 @@ body{
         margin-left: 300px;
         margin-right: 0px;
         overflow-x: hidden;
+        font-family: 'roboto';
 }
 
 /*----------------------------------------Sidebar----------------------------------------*/
@@ -55,8 +56,8 @@ body{
 .sidebar-top input[type=search]{
         width: 80%;
         margin: 30px 0 15px 0px;
-        background-color: lightgray;
-        border: 2px solid lightgrey;
+        background-color: #8C8C8C;
+        border: 2px solid #8C8C8C;
         border-radius: 2px;
         padding: 5px 10px;
         margin-left: 9%;
@@ -68,8 +69,8 @@ body{
 }
 
 .sidebar button{
-        background-color: lightgray;
-        border: 2px solid lightgrey;
+        background-color: #8C8C8C;
+        border: 2px solid #8C8C8C;
         border-radius: 2px;
         display: inline;
         color: #FFF;
@@ -124,7 +125,7 @@ body{
         float: left;
         width: 1060px;
         display: inline;
-        font-size: 20px;
+        font-size: 19px;
 }
 
 .page-1-img-1{
@@ -138,7 +139,7 @@ body{
 }
 
 .page-1-right h3{
-        font-size: 25px;
+        font-size: 30px;
         color: #1FA5FF;
         display: block;
 }
@@ -152,7 +153,7 @@ body{
 }
 
 .page-1-left h3{
-        font-size: 25px;
+        font-size: 30px;
         color: #1FA5FF;
         display: block;
         position: relative;
@@ -162,7 +163,7 @@ body{
 .page-1-parrafo-2{
         float: right;
         width: 1060px;
-        font-size: 20px;
+        font-size: 19px;
         margin-right: 30px;
 }
 
@@ -187,13 +188,13 @@ body{
 .page-2 h2{
         text-align: center;
         color: #1FA5FF;
-        font-size: 40px;
+        font-size: 45px;
 }
 
 /*--------------------Primer Parrafo--------------------*/
 .page-2-parrafo-1{
         display: inline;
-        font-size: 20px;
+        font-size: 18px;
         width: 60%;
         float: left;
 
@@ -216,7 +217,7 @@ body{
 /*--------------------Segundo Parrafo---------------------*/
 .page-2-parrafo-2{
         display: inline;
-        font-size: 20px;
+        font-size: 18px;
         width: 60%;
         float: right;
 }
@@ -257,9 +258,9 @@ body{
 
 .group01 img{
         float: left;
-        margin-right: 15px;
+        margin-right: 13px;
         position: relative;
-        padding: 80px 0;
+        padding: 95px 0;
 }
 
 .group01 p {
@@ -285,9 +286,9 @@ body{
 
 .group02 img{
         float: left;
-        margin-right: 15px;
+        margin-right: 13px;
         position: relative;
-        padding: 80px 0;
+        padding: 95px 0;
 }
 
 .group02 p {
@@ -313,9 +314,9 @@ body{
 
 .group03 img{
         float: left;
-        margin-right: 15px;
+        margin-right: 13px;
         position: relative;
-        padding: 80px 0;
+        padding: 95px 0;
 }
 
 .group03 p {
@@ -341,9 +342,9 @@ body{
 
 .group04 img{
         float: left;
-        margin-right: 15px;
+        margin-right: 13px;
         position: relative;
-        padding: 80px 0;
+        padding: 95px 0;
 }
 
 .group04 p {
@@ -369,9 +370,9 @@ body{
 
 .group05 img{
         float: left;
-        margin-right: 15px;
+        margin-right: 13px;
         position: relative;
-        padding: 80px 0;
+        padding: 95px 0;
 }
 
 .group05 p {
@@ -397,9 +398,9 @@ body{
 
 .group06 img{
         float: left;
-        margin-right: 15px;
+        margin-right: 13px;
         position: relative;
-        padding: 80px 0;
+        padding: 95px 0;
 }
 
 .group06 p {
@@ -552,6 +553,7 @@ body{
         width: 300px;
         position: relative;
         bottom: 12px;
+        font-size: 15px;
 }
 /*----------Box 2----------*/
 .box2{
@@ -572,6 +574,7 @@ body{
         bottom: 5px;
         left: 40px;
         display: block;
+        font-size: 15px;
 }
 
 /*----------Box 3----------*/
@@ -591,6 +594,7 @@ body{
         width: 300px;
         position: relative;
         bottom: 15px;
+        font-size: 15px;
 }
 
 /*--------------------Container Bot--------------------*/
