@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GymShark</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/body.css">
 </head>
 <body>
     <header id="header">
@@ -291,18 +293,18 @@
             </div>
         </section>
     </section>
-    <aside class="sidebar">
-        <nav>
+    <aside id="sidebar">
             <section class="sidebar-top">
                 <form action="">
                         <input type="search" placeholder="Search" name="search" id="search">
                         <div class="buttons">
-                            <button value="sign-up">Sign Up</button>
-                            <button value="log-in">Log In</button>
+                            <button value="sign-up" class="button1">Sign Up</button>
+                            <button value="log-in" class="button2">Log In</button>
                         </div>
                 </form>
             </section>
             <section class="sidebar-mid">
+        <nav>
                 <div>
                     <h5>Menu</h5>
                     <ul class="ul">
